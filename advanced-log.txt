@@ -1,0 +1,37 @@
+ping google.com
+    What it does: Sends repeated network “echo” requests to google.com and waits for replies.
+    Description: Tests basic connectivity and shows latency (delay). Stop it with Ctrl+C.
+curl https://example.com
+    What it does: Fetches the contents of a web page from the URL and prints it to the terminal.
+    Description: Useful for testing web access, APIs, and seeing what a server returns.
+ip addr
+    What it does: Displays network interfaces and IP address information for your machine.
+    Description: Helps you see your local IP, interface names (like eth0, wlan0), and network status.
+sudo apt install net-tools (if needed)
+    What it does: Installs the net-tools package (older networking tools like ifconfig, netstat).
+    Description: Some systems don’t include these by default, so this installs them.
+sudo apt update
+    What it does: Updates the package list from software repositories.
+    Description: Refreshes what packages are available and what versions exist before installing/upgrading.
+sudo apt install tree
+    What it does: Installs the tree command.
+    Description: Adds a tool that displays directory structure in a tree-like view.
+tree
+    What it does: Prints the folder structure starting from the current directory (or a specified path).
+    Description: Helps visualize files and folders quickly, especially in projects.
+alias ll='ls -l'
+    What it does: Creates a temporary shortcut so typing ll runs ls -l.
+    Description: Only lasts for the current terminal session unless added to a shell config file.
+echo "alias ll='ls -l'" >> ~/.bashrc && source ~/.bashrc
+    What it does: Appends the alias to your ~/.bashrc file and reloads it immediately.
+    Description: Makes ll permanent for future terminal sessions (for bash users).
+env | grep PATH
+    What it does: Displays your PATH environment variable.
+    Description: Shows where the system looks for executable commands when you type them (like /usr/bin, /bin, etc.)..
+├── README.md
+├── advanced-log.txt
+├── easy-log.txt
+├── intermediate-log.txt
+└── list.sh
+
+1 directory, 5 files
